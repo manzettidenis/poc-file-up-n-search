@@ -1,0 +1,24 @@
+{
+  service: 'file-upload-api',
+  filePath: 'Screenshot from 2025-06-10 15-24-26-1752689154708-668913733.png',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'Command failed: tesseract stdin stdout -l eng --oem 1 --psm 3\n' +
+    '/bin/sh: 1: tesseract: not found\n',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 15:05:54'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'Screenshot from 2025-06-10 15-24-26-1752689301396-346443842.png',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'Command failed: tesseract stdin stdout -l eng --oem 1 --psm 3\n' +
+    '/bin/sh: 1: tesseract: not found\n',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 15:08:21'
+}

@@ -1,0 +1,18 @@
+# Ignora pastas
+dist/
+coverage/
+node_modules/
+build/
+out/
+
+# Ignora arquivos específicos
+package-lock.json
+*.log
+*.md
+*.svg
+
+# Ignora arquivos em qualquer pasta chamada 'temp'
+**/temp/*
+
+legacy/
+test/legacy/

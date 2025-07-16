@@ -1,0 +1,31 @@
+Welcome to File Upload and Search System
+
+This is a sample text file that demonstrates the capabilities of our file upload and search system. This proof-of-concept application allows you to:
+
+1. Upload various file types including:
+   - Text files (.txt)
+   - PDF documents (.pdf)
+   - Word documents (.doc, .docx)
+   - Images (.jpg, .jpeg, .png)
+
+2. Search through file contents using:
+   - Full-text search functionality
+   - Fuzzy matching algorithms
+   - Real-time search as you type
+
+3. Manage your files with features like:
+   - File preview capabilities
+   - Delete unwanted files
+   - View file metadata and information
+
+Key Technologies Used:
+- Frontend: SolidJS with TypeScript and TailwindCSS
+- Backend: Node.js with Express and TypeScript
+- Search: Fuse.js for fuzzy search capabilities
+- File Upload: Multer for handling multipart form data
+- Architecture: Domain-Driven Design principles
+
+Sample Search Terms:
+Try searching for terms like "upload", "search", "SolidJS", "TypeScript", "Node.js", "DDD", or "architecture" to test the search functionality.
+
+This system is designed as a proof-of-concept to demonstrate modern web development practices and effective file management solutions. 
