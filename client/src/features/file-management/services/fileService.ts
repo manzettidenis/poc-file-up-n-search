@@ -1,4 +1,4 @@
-import { apiClient } from '../../../core/api/client'
+import { apiClient } from '../../../core/providers/api/client'
 
 /**
  * Delete a file by ID

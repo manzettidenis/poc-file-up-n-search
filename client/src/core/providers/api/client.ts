@@ -1,4 +1,4 @@
-import { ApiResponse, ApiError } from '../types/api'
+import { ApiResponse, ApiError } from '../../types/api'
 
 // API configuration
 const isDevelopment = import.meta.env.DEV || window.location.hostname === 'localhost'

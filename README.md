@@ -161,6 +161,7 @@ npm run dev
 ##  Project Structure
 ```
 file-upload-n-search/
+|
 ├── server/                 # Node.js API
 │   ├── src/
 │   │   ├── domain/         # Domain entities & services
@@ -170,19 +171,19 @@ file-upload-n-search/
 │   │   └── utils/          # Utilities & monitoring
 │   ├── Dockerfile
 │   └── package.json
+|
 ├── client/                 # SolidJS web app
 │   ├── src/
-│   │   ├── app/            # App instance
-│   │   ├── components/     # JSX components
-│   │   ├── core/
-│   │   ├── features/
-│   │   ├── shared/
-│   │   └── utils/
-│   ├── Dockerfile
+│   │   ├── core/           # providers, global stores, types.
+│   │   ├── features/       # modules hooks, services, local stores and components
+│   │   ├── shared/         # shared components and hooks.
+│   ├── Dockerfile  
 │   ├── nginx.conf
 │   └── package.json
+|
 ├── monitoring/             # Monitoring configs
 │   └── prometheus.yml
+|
 ├── docker-compose.yml      # Main orchestration
 └── README.md
 ```

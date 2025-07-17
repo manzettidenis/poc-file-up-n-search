@@ -1,4 +1,4 @@
-import { apiClient } from '../../../core/api/client'
+import { apiClient } from '../../../core/providers/api/client'
 import { SearchResponse, FilesResponse } from '../../../core/types/api'
 
 // Internal cache state - module-scoped
