@@ -148,12 +148,12 @@ docker-compose --profile monitoring up
 ### Local Development Setup
 ```bash
 # Backend
-cd backend
+cd server
 npm install
 npm run dev
 
 # Frontend
-cd frontend
+cd client
 npm install
 npm run dev
 ```
@@ -161,7 +161,7 @@ npm run dev
 ##  Project Structure
 ```
 file-upload-n-search/
-├── backend/                 # Node.js API
+├── server/                 # Node.js API
 │   ├── src/
 │   │   ├── domain/         # Domain entities & services
 │   │   ├── application/    # Use cases
@@ -170,10 +170,14 @@ file-upload-n-search/
 │   │   └── utils/          # Utilities & monitoring
 │   ├── Dockerfile
 │   └── package.json
-├── frontend/               # SolidJS web app
+├── client/                 # SolidJS web app
 │   ├── src/
-│   │   ├── components/
-│   │   └── types/
+│   │   ├── app/            # App instance
+│   │   ├── components/     # JSX components
+│   │   ├── core/
+│   │   ├── features/
+│   │   ├── shared/
+│   │   └── utils/
 │   ├── Dockerfile
 │   ├── nginx.conf
 │   └── package.json

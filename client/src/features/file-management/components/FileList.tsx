@@ -1,8 +1,8 @@
 import { Component, For, Show } from 'solid-js'
-import { FileEntity } from '../core/types/api'
-import { fileService } from '../features/file-management/services/fileService'
-import LoadingSpinner from '../shared/components/LoadingSpinner'
-import EmptyState from '../shared/components/EmptyState'
+import { FileEntity } from '../../../core/types/api'
+import { fileService } from '../services/fileService'
+import LoadingSpinner from '../../../shared/components/LoadingSpinner'
+import EmptyState from '../../../shared/components/EmptyState'
 
 interface FileListProps {
   files: FileEntity[]

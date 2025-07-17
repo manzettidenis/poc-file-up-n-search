@@ -1,9 +1,9 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { createRoot } from 'solid-js'
 import { useFileManager } from '../useFileManager'
-import { searchService } from '../../../features/file-search/services/searchService'
-import { fileService } from '../../../features/file-management/services/fileService'
-import { notificationStore } from '../../../core/stores/notifications'
+import { searchService } from '../../../file-search/services/searchService'
+import { fileService } from '../../../file-management/services/fileService'
+import { notificationStore } from '../../../../core/stores/notifications'
 
 // Mock dependencies
 vi.mock('../../../features/file-search/services/searchService')

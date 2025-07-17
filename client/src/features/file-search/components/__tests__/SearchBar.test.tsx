@@ -1,8 +1,8 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { render, fireEvent, screen } from '@solidjs/testing-library'
 import SearchBar from '../SearchBar'
-import { searchService } from '../../features/file-search/services/searchService'
-import { notificationStore } from '../../core/stores/notifications'
+import { searchService } from '../../services/searchService'
+import { notificationStore } from '../../../../core/stores/notifications'
 
 // Mock dependencies
 vi.mock('../../features/file-search/services/searchService', () => ({

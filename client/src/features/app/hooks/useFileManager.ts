@@ -1,8 +1,8 @@
 import { createSignal, createResource } from 'solid-js'
-import { FileEntity } from '../../core/types/api'
-import { searchService } from '../../features/file-search/services/searchService'
-import { fileService } from '../../features/file-management/services/fileService'
-import { notificationStore } from '../../core/stores/notifications'
+import { FileEntity } from '../../../core/types/api'
+import { searchService } from '../../file-search/services/searchService'
+import { fileService } from '../../file-management/services/fileService'
+import { notificationStore } from '../../../core/stores/notifications'
 
 export interface UseFileManagerState {
   searchQuery: string

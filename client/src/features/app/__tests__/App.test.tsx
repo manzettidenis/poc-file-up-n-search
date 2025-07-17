@@ -91,7 +91,7 @@ describe('App Component Tests', () => {
   })
 
   it('should show search results section when search returns results', async () => {
-    const { searchService } = await import('../../features/file-search/services/searchService')
+    const { searchService } = await import('../../file-search/services/searchService')
     const mockSearchResults = {
       files: [
         {
@@ -137,7 +137,7 @@ describe('App Component Tests', () => {
   })
 
   it('should pass correct props to FileList components when search has results', async () => {
-    const { searchService } = await import('../../features/file-search/services/searchService')
+    const { searchService } = await import('../../file-search/services/searchService')
     const mockSearchResults = {
       files: [
         {
@@ -228,7 +228,7 @@ describe('App Component Tests', () => {
   })
 
   it('should show search results count correctly', async () => {
-    const { searchService } = await import('../../features/file-search/services/searchService')
+    const { searchService } = await import('../../file-search/services/searchService')
     const mockSearchResults = {
       files: Array.from({ length: 5 }, (_, i) => ({
         file: {

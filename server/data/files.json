@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "66cf460e-0742-43e4-a057-06f8e4137716",
+    "filename": "printable-6-1752771320632-850209643.webp",
+    "originalName": "printable-6.webp",
+    "mimetype": "image/webp",
+    "size": 70110,
+    "path": "/home/denis/Documents/personal/PoCs/poc-file-up-n-search/server/uploads/printable-6-1752771320632-850209643.webp",
+    "extractedText": "code\n\nLoop\n\n898\n\nSprite\n\n%\n\nInput\n\nScratch\n\nProgram\n\n‘Sequence\n\n7\n\nBlock\n\nOutput\n\nFunetion\n\nBug\n\n*\n\nVariable\n\ns\n\nstage\n\nAlgorithm\n\nRepeat\n\nDebug\n\nEvent\n\nProject",
+    "metadata": {
+      "title": "printable-6-1752771320632-850209643",
+      "wordCount": 23,
+      "characterCount": 162,
+      "format": "image",
+      "encoding": "utf-8",
+      "imageWidth": 300,
+      "imageHeight": 422,
+      "imageFormat": "webp",
+      "imageChannels": 3,
+      "ocrLanguage": "eng",
+      "ocrEngine": "tesseract"
+    },
+    "uploadedAt": "2025-07-17T16:55:20.634Z",
+    "lastModified": "2025-07-17T16:55:20.811Z"
+  }
+]
