@@ -80,11 +80,11 @@ describe('TextExtractionService', () => {
     it('should return list of supported MIME types', () => {
       const supportedTypes = textExtractionService.supportedMimeTypes()
 
-      expect(supportedTypes).toContain?.('text/plain')
-      expect(supportedTypes).toContain?.('application/pdf')
-      expect(supportedTypes).toContain?.('image/png')
-      expect(supportedTypes).toContain?.('image/jpeg')
-      expect(supportedTypes).toContain?.('image/jpg')
+      expect(supportedTypes).toContain('text/plain')
+      expect(supportedTypes).toContain('application/pdf')
+      expect(supportedTypes).toContain('image/png')
+      expect(supportedTypes).toContain('image/jpeg')
+      expect(supportedTypes).toContain('image/jpg')
       expect(supportedTypes).toContain('image/tiff')
       expect(supportedTypes).toContain('image/bmp')
       expect(supportedTypes).toContain('image/webp')

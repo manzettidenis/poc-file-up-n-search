@@ -71,7 +71,7 @@ docker-compose --profile monitoring up --build -d
 # Grafana: http://localhost:3002 (admin/admin)
 ```
 
-## 📊 Supported File Types & OCR Languages
+##  Supported File Types & OCR Languages
 
 ### File Types
 - **Text**: `.txt`
@@ -92,7 +92,7 @@ docker-compose --profile monitoring up --build -d
 - Arabic (ara)
 - Hindi (hin)
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 ```bash
@@ -126,7 +126,7 @@ docker-compose up
 docker-compose --profile monitoring up
 ```
 
-## 🏥 Health & Monitoring
+##  Health & Monitoring
 
 ### Health Check Endpoints
 - `GET /health` - Comprehensive health check
@@ -143,7 +143,7 @@ docker-compose --profile monitoring up
 - Memory and disk usage
 - Cache hit rates
 
-## 🔧 Development
+## Development
 
 ### Local Development Setup
 ```bash
@@ -158,7 +158,7 @@ npm install
 npm run dev
 ```
 
-## 📂 Project Structure
+##  Project Structure
 ```
 file-upload-n-search/
 ├── backend/                 # Node.js API
@@ -183,7 +183,7 @@ file-upload-n-search/
 └── README.md
 ```
 
-## 🚀 Production Deployment
+##  Production Deployment
 
 ### Docker Swarm
 ```bash
@@ -203,7 +203,7 @@ kompose convert -f docker-compose.yml
 kubectl apply -f .
 ```
 
-## 🔍 Usage Examples
+##  Usage Examples
 
 ### Upload a File
 ```bash
@@ -222,7 +222,7 @@ curl "http://localhost:3001/api/search?q=your+search+term"
 curl http://localhost:3001/api/ocr/capabilities
 ```
 
-## 🛡️ Security Features
+##  Security Features
 
 - **Rate Limiting**: Configurable per endpoint
 - **File Validation**: MIME type and extension checking
@@ -230,7 +230,7 @@ curl http://localhost:3001/api/ocr/capabilities
 - **Security Headers**: CORS, CSP, and security headers
 - **Container Security**: Non-root user, minimal attack surface
 
-## 📈 Performance Features
+##  Performance Features
 
 - **Caching**: Multi-layer caching (file content, search results, metadata)
 - **Async Processing**: Non-blocking file processing with queues
@@ -238,9 +238,9 @@ curl http://localhost:3001/api/ocr/capabilities
 - **CDN Ready**: Static file optimization
 - **Resource Monitoring**: Memory and disk usage tracking
 
-## ⚖️ Scalability Considerations
+##  Scalability Considerations
 
-### 🔬 Current PoC Limitations
+###  Current PoC Limitations
 
 This application is designed as a **Proof of Concept** with the following limitations:
 
@@ -260,7 +260,7 @@ This application is designed as a **Proof of Concept** with the following limita
 | **Search Latency** | 50-500ms | Increases with document count |
 | **Storage** | Local filesystem | No redundancy or distribution |
 
-### 🚀 Production Scalability Options
+###  Production Scalability Options
 
 #### Phase 1: Immediate Optimizations (Current PoC Enhanced)
 ```bash
@@ -343,7 +343,7 @@ services:
 - **Container Orchestration**: Kubernetes
 - **Monitoring**: ELK Stack + Prometheus + Grafana
 
-### 🔧 OCR Architecture Options
+### OCR Architecture Options
 
 The current implementation includes Tesseract OCR in the backend container. For production, consider these alternatives:
 
@@ -458,7 +458,7 @@ class HybridSearchRepository implements IFileRepository {
 3. **Phase 3** (Scale): Full migration to Elasticsearch cluster
 4. **Phase 4** (Enterprise): Microservices and cloud-native deployment
 
-### 📊 Monitoring & Alerting for Scale
+### Monitoring & Alerting for Scale
 
 ```yaml
 # Production monitoring thresholds
@@ -475,7 +475,7 @@ scaling_triggers:
   document_count: >threshold
 ```
 
-### 💡 Recommendations
+### Recommendations
 
 #### For Small Teams (< 10,000 documents):
 - **Keep current Fuse.js implementation**
@@ -492,7 +492,7 @@ scaling_triggers:
 - **Implement cloud-native deployment**
 - **Add advanced analytics and ML features**
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -523,19 +523,3 @@ docker-compose logs backend
 # Follow logs
 docker-compose logs -f backend frontend
 ```
-
-## 📝 License
-
-MIT License - see LICENSE file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
----
-
-**Built with ❤️ using Domain-Driven Design, Modern Web Technologies, and Docker** 
