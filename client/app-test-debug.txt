@@ -1,0 +1,1750 @@
+
+> file-search-frontend@0.0.0 test
+> vitest src/app/__tests__/App.test.tsx --reporter=basic
+
+
+ DEV  v1.6.1 /home/denis/Documents/personal/PoCs/file-upload-n-search/frontend
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should render main layout with title and description
+Adding notification notification-1752704559125-u1vat4tjb with duration undefinedms
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should render all main components
+Adding notification notification-1752704559140-67lzt25xa with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should render all main components
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show correct section titles
+Adding notification notification-1752704559157-ylpmwkrl3 with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show correct section titles
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should display files count in uploaded files section
+<div data-testid="notification-toast">Notification Toast</div><div class="min-h-screen bg-gray-50 py-8"><div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-8"><h1 class="text-4xl font-bold text-gray-900 mb-2">File Upload &amp; Search</h1><p class="text-xl text-gray-600">Upload files and search through their content</p></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-8"><div class="bg-white rounded-lg shadow-md p-6"><h2 class="text-2xl font-semibold text-gray-800 mb-4">Upload Files</h2><div data-testid="file-upload-zone">File Upload Zone</div></div><div class="bg-white rounded-lg shadow-md p-6"><h2 class="text-2xl font-semibold text-gray-800 mb-4">Search Files</h2><div data-testid="search-bar">Search Bar</div></div></div><div class="mt-8 bg-white rounded-lg shadow-md p-6"><h2 class="text-2xl font-semibold text-gray-800 mb-4">Uploaded Files (0<!---->)</h2><div data-testid="file-list">File List - Files: 0<!---->, Loading: true</div></div></div></div>
+Adding notification notification-1752704559164-cl7oksv6o with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should display files count in uploaded files section
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show search results section when there are search results
+Adding notification notification-1752704559169-u17aipog9 with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show search results section when there are search results
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should not show search results section when there are no results
+Adding notification notification-1752704559172-3w944p5pg with duration undefinedms
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should pass correct props to FileList components
+Adding notification notification-1752704559175-wgqxmh7y8 with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should pass correct props to FileList components
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle file uploaded event from upload zone
+Adding notification notification-1752704559182-238bcvj8b with duration undefinedms
+Adding notification notification-1752704559182-m4m24fm07 with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle file uploaded event from upload zone
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle search event from search bar
+Adding notification notification-1752704559185-xc9hyiehk with duration undefinedms
+Adding notification notification-1752704559185-qd0050d77 with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle search event from search bar
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+Search failed: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle file delete event from file lists
+Adding notification notification-1752704559188-4k5a8aeb1 with duration undefinedms
+Adding notification notification-1752704559188-9q0q7hpyw with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle file delete event from file lists
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+Failed to delete file: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should use responsive grid layout
+Adding notification notification-1752704559190-79a6sj9iz with duration undefinedms
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle loading states correctly
+Adding notification notification-1752704559193-j9b612qgt with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle loading states correctly
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+stdout | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show search results count correctly
+Adding notification notification-1752704559197-vvlzkcumq with duration undefinedms
+
+stderr | src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show search results count correctly
+Failed to fetch files: ApiError: Cannot read properties of undefined (reading 'ok')
+    at ApiClient.request (/home/denis/Documents/personal/PoCs/file-upload-n-search/frontend/src/core/api/client.ts:69:15) {
+  statusCode: undefined
+}
+
+ ❯ src/app/__tests__/App.test.tsx  (13 tests | 10 failed) 110ms
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should render all main components
+     → expected [ <div data-testid="file-list"></div> ] to have a length of 2 but got 1
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show correct section titles
+     → Found multiple elements with the text: (content, element) => !!element?.textContent?.match(/Uploaded Files \(\d+\)/)
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<div>[39m
+  [36m<div[39m
+    [33mdata-testid[39m=[32m"notification-toast"[39m
+  [36m>[39m
+    [0mNotification Toast[0m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"text-center mb-8"[39m
+      [36m>[39m
+        [36m<h1[39m
+          [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+        [36m>[39m
+          [0mFile Upload & Search[0m
+        [36m</h1>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-xl text-gray-600"[39m
+        [36m>[39m
+          [0mUpload files and search through their content[0m
+        [36m</p>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUpload Files[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-upload-zone"[39m
+          [36m>[39m
+            [0mFile Upload Zone[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mSearch Files[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"search-bar"[39m
+          [36m>[39m
+            [0mSearch Bar[0m
+          [36m</div>[39m
+          [0m[0m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+        [36m>[39m
+          [0mUploaded Files ([0m
+          [0m0[0m
+          [0m)[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mdata-testid[39m=[32m"file-list"[39m
+        [36m>[39m
+          [0mFile List - Files: [0m
+          [0m0[0m
+          [0m, Loading: [0m
+          [0mtrue[0m
+          [0m[0m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+[36m>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"text-center mb-8"[39m
+    [36m>[39m
+      [36m<h1[39m
+        [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+      [36m>[39m
+        [0mFile Upload & Search[0m
+      [36m</h1>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m"text-xl text-gray-600"[39m
+      [36m>[39m
+        [0mUpload files and search through their content[0m
+      [36m</p>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+        [36m>[39m
+          [0mUpload Files[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mdata-testid[39m=[32m"file-upload-zone"[39m
+        [36m>[39m
+          [0mFile Upload Zone[0m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+        [36m>[39m
+          [0mSearch Files[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mdata-testid[39m=[32m"search-bar"[39m
+        [36m>[39m
+          [0mSearch Bar[0m
+        [36m</div>[39m
+        [0m[0m
+      [36m</div>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+    [36m>[39m
+      [36m<h2[39m
+        [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+      [36m>[39m
+        [0mUploaded Files ([0m
+        [0m0[0m
+        [0m)[0m
+      [36m</h2>[39m
+      [36m<div[39m
+        [33mdata-testid[39m=[32m"file-list"[39m
+      [36m>[39m
+        [0mFile List - Files: [0m
+        [0m0[0m
+        [0m, Loading: [0m
+        [0mtrue[0m
+        [0m[0m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+[36m>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"text-center mb-8"[39m
+  [36m>[39m
+    [36m<h1[39m
+      [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+    [36m>[39m
+      [0mFile Upload & Search[0m
+    [36m</h1>[39m
+    [36m<p[39m
+      [33mclass[39m=[32m"text-xl text-gray-600"[39m
+    [36m>[39m
+      [0mUpload files and search through their content[0m
+    [36m</p>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+    [36m>[39m
+      [36m<h2[39m
+        [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+      [36m>[39m
+        [0mUpload Files[0m
+      [36m</h2>[39m
+      [36m<div[39m
+        [33mdata-testid[39m=[32m"file-upload-zone"[39m
+      [36m>[39m
+        [0mFile Upload Zone[0m
+      [36m</div>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+    [36m>[39m
+      [36m<h2[39m
+        [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+      [36m>[39m
+        [0mSearch Files[0m
+      [36m</h2>[39m
+      [36m<div[39m
+        [33mdata-testid[39m=[32m"search-bar"[39m
+      [36m>[39m
+        [0mSearch Bar[0m
+      [36m</div>[39m
+      [0m[0m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+  [36m>[39m
+    [36m<h2[39m
+      [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+    [36m>[39m
+      [0mUploaded Files ([0m
+      [0m0[0m
+      [0m)[0m
+    [36m</h2>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"file-list"[39m
+    [36m>[39m
+      [0mFile List - Files: [0m
+      [0m0[0m
+      [0m, Loading: [0m
+      [0mtrue[0m
+      [0m[0m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+[36m>[39m
+  [36m<h2[39m
+    [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+  [36m>[39m
+    [0mUploaded Files ([0m
+    [0m0[0m
+    [0m)[0m
+  [36m</h2>[39m
+  [36m<div[39m
+    [33mdata-testid[39m=[32m"file-list"[39m
+  [36m>[39m
+    [0mFile List - Files: [0m
+    [0m0[0m
+    [0m, Loading: [0m
+    [0mtrue[0m
+    [0m[0m
+  [36m</div>[39m
+[36m</div>[39m
+
+Ignored nodes: comments, script, style
+[36m<h2[39m
+  [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+[36m>[39m
+  [0mUploaded Files ([0m
+  [0m0[0m
+  [0m)[0m
+[36m</h2>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should display files count in uploaded files section
+     → Unable to find an element with the text: (content, element) => !!element?.textContent?.match(/Uploaded Files \(3\)/). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show search results section when there are search results
+     → Unable to find an element with the text: (content, element) => !!element?.textContent?.match(/Search Results \(1\)/). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should pass correct props to FileList components
+     → expected 'File List - Files: 0, Loading: true' to contain 'Files: 1'
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle file uploaded event from upload zone
+     → expected "spy" to be called with arguments: [ { id: '123', filename: 'test.txt' } ]
+
+Received: 
+
+
+
+Number of calls: 0
+
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle search event from search bar
+     → expected "spy" to be called with arguments: [ 'test query' ]
+
+Received: 
+
+
+
+Number of calls: 0
+
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle file delete event from file lists
+     → expected "spy" to be called with arguments: [ '123' ]
+
+Received: 
+
+
+
+Number of calls: 0
+
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle loading states correctly
+     → Cannot read properties of undefined (reading 'textContent')
+   ❯ src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show search results count correctly
+     → Unable to find an element with the text: Search Results (5). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 10 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should render all main components
+AssertionError: expected [ <div data-testid="file-list"></div> ] to have a length of 2 but got 1
+
+- Expected
++ Received
+
+- 2
++ 1
+
+ ❯ src/app/__tests__/App.test.tsx:77:48
+     75|     expect(screen.getByTestId('file-upload-zone')).toBeDefined()
+     76|     expect(screen.getByTestId('search-bar')).toBeDefined()
+     77|     expect(screen.getAllByTestId('file-list')).toHaveLength(2) // One …
+       |                                                ^
+     78|   })
+     79| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/10]⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show correct section titles
+TestingLibraryElementError: Found multiple elements with the text: (content, element) => !!element?.textContent?.match(/Uploaded Files \(\d+\)/)
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<div>[39m
+  [36m<div[39m
+    [33mdata-testid[39m=[32m"notification-toast"[39m
+  [36m>[39m
+    [0mNotification Toast[0m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"text-center mb-8"[39m
+      [36m>[39m
+        [36m<h1[39m
+          [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+        [36m>[39m
+          [0mFile Upload & Search[0m
+        [36m</h1>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"text-xl text-gray-600"[39m
+        [36m>[39m
+          [0mUpload files and search through their content[0m
+        [36m</p>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUpload Files[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-upload-zone"[39m
+          [36m>[39m
+            [0mFile Upload Zone[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mSearch Files[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"search-bar"[39m
+          [36m>[39m
+            [0mSearch Bar[0m
+          [36m</div>[39m
+          [0m[0m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+        [36m>[39m
+          [0mUploaded Files ([0m
+          [0m0[0m
+          [0m)[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mdata-testid[39m=[32m"file-list"[39m
+        [36m>[39m
+          [0mFile List - Files: [0m
+          [0m0[0m
+          [0m, Loading: [0m
+          [0mtrue[0m
+          [0m[0m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+[36m>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"text-center mb-8"[39m
+    [36m>[39m
+      [36m<h1[39m
+        [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+      [36m>[39m
+        [0mFile Upload & Search[0m
+      [36m</h1>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m"text-xl text-gray-600"[39m
+      [36m>[39m
+        [0mUpload files and search through their content[0m
+      [36m</p>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+        [36m>[39m
+          [0mUpload Files[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mdata-testid[39m=[32m"file-upload-zone"[39m
+        [36m>[39m
+          [0mFile Upload Zone[0m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+        [36m>[39m
+          [0mSearch Files[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mdata-testid[39m=[32m"search-bar"[39m
+        [36m>[39m
+          [0mSearch Bar[0m
+        [36m</div>[39m
+        [0m[0m
+      [36m</div>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+    [36m>[39m
+      [36m<h2[39m
+        [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+      [36m>[39m
+        [0mUploaded Files ([0m
+        [0m0[0m
+        [0m)[0m
+      [36m</h2>[39m
+      [36m<div[39m
+        [33mdata-testid[39m=[32m"file-list"[39m
+      [36m>[39m
+        [0mFile List - Files: [0m
+        [0m0[0m
+        [0m, Loading: [0m
+        [0mtrue[0m
+        [0m[0m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+[36m>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"text-center mb-8"[39m
+  [36m>[39m
+    [36m<h1[39m
+      [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+    [36m>[39m
+      [0mFile Upload & Search[0m
+    [36m</h1>[39m
+    [36m<p[39m
+      [33mclass[39m=[32m"text-xl text-gray-600"[39m
+    [36m>[39m
+      [0mUpload files and search through their content[0m
+    [36m</p>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+    [36m>[39m
+      [36m<h2[39m
+        [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+      [36m>[39m
+        [0mUpload Files[0m
+      [36m</h2>[39m
+      [36m<div[39m
+        [33mdata-testid[39m=[32m"file-upload-zone"[39m
+      [36m>[39m
+        [0mFile Upload Zone[0m
+      [36m</div>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+    [36m>[39m
+      [36m<h2[39m
+        [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+      [36m>[39m
+        [0mSearch Files[0m
+      [36m</h2>[39m
+      [36m<div[39m
+        [33mdata-testid[39m=[32m"search-bar"[39m
+      [36m>[39m
+        [0mSearch Bar[0m
+      [36m</div>[39m
+      [0m[0m
+    [36m</div>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+  [36m>[39m
+    [36m<h2[39m
+      [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+    [36m>[39m
+      [0mUploaded Files ([0m
+      [0m0[0m
+      [0m)[0m
+    [36m</h2>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"file-list"[39m
+    [36m>[39m
+      [0mFile List - Files: [0m
+      [0m0[0m
+      [0m, Loading: [0m
+      [0mtrue[0m
+      [0m[0m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+[36m>[39m
+  [36m<h2[39m
+    [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+  [36m>[39m
+    [0mUploaded Files ([0m
+    [0m0[0m
+    [0m)[0m
+  [36m</h2>[39m
+  [36m<div[39m
+    [33mdata-testid[39m=[32m"file-list"[39m
+  [36m>[39m
+    [0mFile List - Files: [0m
+    [0m0[0m
+    [0m, Loading: [0m
+    [0mtrue[0m
+    [0m[0m
+  [36m</div>[39m
+[36m</div>[39m
+
+Ignored nodes: comments, script, style
+[36m<h2[39m
+  [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+[36m>[39m
+  [0mUploaded Files ([0m
+  [0m0[0m
+  [0m)[0m
+[36m</h2>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ getElementError node_modules/@testing-library/dom/dist/query-helpers.js:20:35
+ ❯ getMultipleElementsFoundError node_modules/@testing-library/dom/dist/query-helpers.js:23:10
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+ ❯ getByText node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/app/__tests__/App.test.tsx:88:14
+     86|     expect(screen.getByText('Search Files')).toBeDefined()
+     87|     expect(
+     88|       screen.getByText((content, element) => !!element?.textContent?.m…
+       |              ^
+     89|     ).toBeDefined()
+     90|   })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/10]⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should display files count in uploaded files section
+TestingLibraryElementError: Unable to find an element with the text: (content, element) => !!element?.textContent?.match(/Uploaded Files \(3\)/). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ getByText node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/app/__tests__/App.test.tsx:109:16
+    107|     try {
+    108|       expect(
+    109|         screen.getByText((content, element) => !!element?.textContent?…
+       |                ^
+    110|       ).toBeDefined()
+    111|     } catch (e) {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/10]⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show search results section when there are search results
+TestingLibraryElementError: Unable to find an element with the text: (content, element) => !!element?.textContent?.match(/Search Results \(1\)/). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ getByText node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/app/__tests__/App.test.tsx:134:19
+    132|     render(() => <App />)
+    133| 
+    134|     expect(screen.getByText((content, element) => !!element?.textConte…
+       |                   ^
+    135|   })
+    136| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/10]⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should pass correct props to FileList components
+AssertionError: expected 'File List - Files: 0, Loading: true' to contain 'Files: 1'
+
+- Expected
++ Received
+
+- Files: 1
++ File List - Files: 0, Loading: true
+
+ ❯ src/app/__tests__/App.test.tsx:177:38
+    175| 
+    176|     // Search results FileList
+    177|     expect(fileLists[0].textContent).toContain('Files: 1')
+       |                                      ^
+    178|     expect(fileLists[0].textContent).toContain('Loading: true')
+    179|     expect(fileLists[0].textContent).toContain('Query: test query')
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/10]⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle file uploaded event from upload zone
+AssertionError: expected "spy" to be called with arguments: [ { id: '123', filename: 'test.txt' } ]
+
+Received: 
+
+
+
+Number of calls: 0
+
+ ❯ src/app/__tests__/App.test.tsx:195:48
+    193|     uploadZone.click()
+    194| 
+    195|     expect(mockFileManager.handleFileUploaded).toHaveBeenCalledWith({ …
+       |                                                ^
+    196|   })
+    197| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/10]⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle search event from search bar
+AssertionError: expected "spy" to be called with arguments: [ 'test query' ]
+
+Received: 
+
+
+
+Number of calls: 0
+
+ ❯ src/app/__tests__/App.test.tsx:207:42
+    205|     searchBar.click()
+    206| 
+    207|     expect(mockFileManager.handleSearch).toHaveBeenCalledWith('test qu…
+       |                                          ^
+    208|   })
+    209| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/10]⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle file delete event from file lists
+AssertionError: expected "spy" to be called with arguments: [ '123' ]
+
+Received: 
+
+
+
+Number of calls: 0
+
+ ❯ src/app/__tests__/App.test.tsx:219:47
+    217|     fileLists[0].click() // Click first file list
+    218| 
+    219|     expect(mockFileManager.handleFileDeleted).toHaveBeenCalledWith('12…
+       |                                               ^
+    220|   })
+    221| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/10]⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should handle loading states correctly
+TypeError: Cannot read properties of undefined (reading 'textContent')
+ ❯ src/app/__tests__/App.test.tsx:253:25
+    251|     // Both file lists should show loading state
+    252|     expect(fileLists[0].textContent).toContain('Loading: true')
+    253|     expect(fileLists[1].textContent).toContain('Loading: true')
+       |                         ^
+    254|   })
+    255| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/10]⎯
+
+ FAIL  src/app/__tests__/App.test.tsx > App - Pure UI Component Tests > should show search results count correctly
+TestingLibraryElementError: Unable to find an element with the text: Search Results (5). This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mdata-testid[39m=[32m"notification-toast"[39m
+    [36m>[39m
+      [0mNotification Toast[0m
+    [36m</div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"min-h-screen bg-gray-50 py-8"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-8"[39m
+        [36m>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-4xl font-bold text-gray-900 mb-2"[39m
+          [36m>[39m
+            [0mFile Upload & Search[0m
+          [36m</h1>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"text-xl text-gray-600"[39m
+          [36m>[39m
+            [0mUpload files and search through their content[0m
+          [36m</p>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"grid grid-cols-1 lg:grid-cols-2 gap-8"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mUpload Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"file-upload-zone"[39m
+            [36m>[39m
+              [0mFile Upload Zone[0m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"bg-white rounded-lg shadow-md p-6"[39m
+          [36m>[39m
+            [36m<h2[39m
+              [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+            [36m>[39m
+              [0mSearch Files[0m
+            [36m</h2>[39m
+            [36m<div[39m
+              [33mdata-testid[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [0mSearch Bar[0m
+            [36m</div>[39m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 bg-white rounded-lg shadow-md p-6"[39m
+        [36m>[39m
+          [36m<h2[39m
+            [33mclass[39m=[32m"text-2xl font-semibold text-gray-800 mb-4"[39m
+          [36m>[39m
+            [0mUploaded Files ([0m
+            [0m0[0m
+            [0m)[0m
+          [36m</h2>[39m
+          [36m<div[39m
+            [33mdata-testid[39m=[32m"file-list"[39m
+          [36m>[39m
+            [0mFile List - Files: [0m
+            [0m0[0m
+            [0m, Loading: [0m
+            [0mtrue[0m
+            [0m[0m
+          [36m</div>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ getByText node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/app/__tests__/App.test.tsx:274:19
+    272|     render(() => <App />)
+    273| 
+    274|     expect(screen.getByText('Search Results (5)')).toBeDefined()
+       |                   ^
+    275|   })
+    276| })
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/10]⎯
+
+ Test Files  1 failed (1)
+      Tests  10 failed | 3 passed (13)
+   Start at  19:22:37
+   Duration  1.31s (transform 263ms, setup 23ms, collect 311ms, tests 110ms, environment 344ms, prepare 86ms)
+
+
+ FAIL  Tests failed. Watching for file changes...
+       press h to show help, press q to quit
+Cancelling test run. Press CTRL+c again to exit forcefully.
+
+[3Jc
+ RERUN  rerun all tests
+

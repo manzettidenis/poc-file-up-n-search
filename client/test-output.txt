@@ -1,0 +1,153 @@
+
+> file-search-frontend@0.0.0 test
+> vitest --reporter=verbose
+
+
+ DEV  v1.6.1 /home/denis/Documents/personal/PoCs/file-upload-n-search/frontend
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Initial State > should have empty notifications array initially
+Clearing all notifications
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Adding Notifications > should add notification with default duration
+Clearing all notifications
+Adding notification notification-1752704534484-017prtizs with duration 3000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Adding Notifications > should add notification with custom properties
+Clearing all notifications
+Adding notification notification-1752704534488-6n8vcexqr with duration 5000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Adding Notifications > should add multiple notifications
+Clearing all notifications
+Adding notification notification-1752704534489-pr4943ogm with duration 3000ms
+Adding notification notification-1752704534489-4q6mb322k with duration 3000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Adding Notifications > should generate unique IDs for each notification
+Clearing all notifications
+Adding notification notification-1752704534490-djj3fh9qe with duration 3000ms
+Adding notification notification-1752704534490-zcq8bv05u with duration 3000ms
+Adding notification notification-1752704534490-xn4nms674 with duration 3000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Removing Notifications > should remove notification by ID
+Clearing all notifications
+Adding notification notification-1752704534491-lkn4jtivk with duration 3000ms
+Adding notification notification-1752704534491-o0xiv7f13 with duration 3000ms
+Removing notification notification-1752704534491-lkn4jtivk
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Removing Notifications > should handle removing non-existent notification
+Clearing all notifications
+Adding notification notification-1752704534493-d6545i95g with duration 3000ms
+Removing notification non-existent-id
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Removing Notifications > should remove correct notification when multiple exist
+Clearing all notifications
+Adding notification notification-1752704534494-atq5f56ol with duration 3000ms
+Adding notification notification-1752704534494-wzm45zhtf with duration 3000ms
+Adding notification notification-1752704534494-uer1bs8uq with duration 3000ms
+Removing notification notification-1752704534494-wzm45zhtf
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Clearing Notifications > should clear all notifications
+Clearing all notifications
+Adding notification notification-1752704534495-r8iofwzpc with duration 3000ms
+Adding notification notification-1752704534495-nush21jzt with duration 3000ms
+Adding notification notification-1752704534495-yq5zxf0ko with duration 3000ms
+Clearing all notifications
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Clearing Notifications > should handle clearing when no notifications exist
+Clearing all notifications
+Clearing all notifications
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Convenience Methods > should create success notification
+Clearing all notifications
+Adding notification notification-1752704534497-ye7duqipt with duration undefinedms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Convenience Methods > should create error notification
+Clearing all notifications
+Adding notification notification-1752704534498-cimhk8oyh with duration undefinedms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Convenience Methods > should create info notification
+Clearing all notifications
+Adding notification notification-1752704534499-dgqfjehcu with duration undefinedms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Convenience Methods > should create warning notification
+Clearing all notifications
+Adding notification notification-1752704534499-78l9crl0g with duration undefinedms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Convenience Methods > should create notification without message
+Clearing all notifications
+Adding notification notification-1752704534500-jf12rss3y with duration undefinedms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Convenience Methods > should create notification with custom duration
+Clearing all notifications
+Adding notification notification-1752704534500-v4xgdejhx with duration 10000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Console Logging > should log when adding notification
+Clearing all notifications
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Console Logging > should log when removing notification
+Clearing all notifications
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Console Logging > should log when clearing notifications
+Clearing all notifications
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Notification Properties > should preserve all notification properties
+Clearing all notifications
+Adding notification notification-1752704534504-cixhdaply with duration 8000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Notification Properties > should handle notifications without optional properties
+Clearing all notifications
+Adding notification notification-1752704534504-sggm4zy7r with duration 3000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Edge Cases > should handle empty title
+Clearing all notifications
+Adding notification notification-1752704534505-filrq5233 with duration 3000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Edge Cases > should handle zero duration
+Clearing all notifications
+Adding notification notification-1752704534505-r9frh3t10 with duration 0ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Edge Cases > should handle negative duration
+Clearing all notifications
+Adding notification notification-1752704534506-tqhaukz27 with duration -1000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Edge Cases > should handle very long strings
+Clearing all notifications
+Adding notification notification-1752704534506-0dax23llk with duration 3000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Edge Cases > should handle special characters in strings
+Clearing all notifications
+Adding notification notification-1752704534506-ysmwfzj5j with duration 3000ms
+Clearing all notifications
+
+stdout | src/core/stores/__tests__/notifications.test.ts > Notifications Store > Reactive Updates > should notify subscribers when notifications change
+Clearing all notifications
+Adding notification notification-1752704534507-5b1170mll with duration 3000ms
+Adding notification notification-1752704534507-b71insqxn with duration 3000ms
+Removing notification notification-1752704534507-5b1170mll
+Clearing all notifications
+Clearing all notifications
+

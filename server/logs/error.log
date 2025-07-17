@@ -1,0 +1,328 @@
+{
+  service: 'file-upload-api',
+  filePath: 'Screenshot from 2025-06-10 15-24-26-1752689154708-668913733.png',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'Command failed: tesseract stdin stdout -l eng --oem 1 --psm 3\n' +
+    '/bin/sh: 1: tesseract: not found\n',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 15:05:54'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'Screenshot from 2025-06-10 15-24-26-1752689301396-346443842.png',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'Command failed: tesseract stdin stdout -l eng --oem 1 --psm 3\n' +
+    '/bin/sh: 1: tesseract: not found\n',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 15:08:21'
+}
+{
+  service: 'file-upload-api',
+  message: 'Error occurred callback is not a function',
+  stack: 'TypeError: callback is not a function\n' +
+    '    at Proxy.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:134:9)\n' +
+    '    at Proxy.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Proxy.spy (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:164:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at TextExtractionService.extractFromPdf (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:158:12)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:56:27\n' +
+    '    at Object.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:18:56)\n' +
+    '    at Object.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Object.spy [as getOrSet] (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)',
+  category: 'text_extraction',
+  context: {
+    filePath: '/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/test-uploads/test.pdf',
+    mimetype: 'application/pdf'
+  },
+  requestId: undefined,
+  timestamp: '2025-07-16 20:16:15',
+  level: 'error'
+}
+{
+  service: 'file-upload-api',
+  message: 'Error occurred callback is not a function',
+  stack: 'TypeError: callback is not a function\n' +
+    '    at Proxy.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:153:9)\n' +
+    '    at Proxy.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Proxy.spy (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:164:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at TextExtractionService.extractFromPdf (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:158:12)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:56:27\n' +
+    '    at Object.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:18:56)\n' +
+    '    at Object.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Object.spy [as getOrSet] (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)',
+  category: 'text_extraction',
+  context: {
+    filePath: '/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/test-uploads/corrupted.pdf',
+    mimetype: 'application/pdf'
+  },
+  requestId: undefined,
+  timestamp: '2025-07-16 20:16:15',
+  level: 'error'
+}
+{
+  service: 'file-upload-api',
+  message: 'Error occurred callback is not a function',
+  stack: 'TypeError: callback is not a function\n' +
+    '    at Proxy.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:172:9)\n' +
+    '    at Proxy.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Proxy.spy (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:164:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at TextExtractionService.extractFromPdf (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:158:12)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:56:27\n' +
+    '    at Object.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:18:56)\n' +
+    '    at Object.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Object.spy [as getOrSet] (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)',
+  category: 'text_extraction',
+  context: {
+    filePath: '/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/test-uploads/empty.pdf',
+    mimetype: 'application/pdf'
+  },
+  requestId: undefined,
+  timestamp: '2025-07-16 20:16:15',
+  level: 'error'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'test.png',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:16:15'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'bad-image.png',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:16:15'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'test.jpg',
+  mimetype: 'image/jpeg',
+  language: 'eng',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:16:15'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'multilang.png',
+  mimetype: 'image/png',
+  language: 'spa',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:16:15'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'file.txt',
+  error: "ENOENT: no such file or directory, open '/path/to/nonexistent/file.txt'",
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from file',
+  timestamp: '2025-07-16 20:16:15'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'slow.txt',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:16:15'
+}
+{
+  service: 'file-upload-api',
+  error: 'listen EADDRINUSE: address already in use :::3001',
+  stack: 'Error: listen EADDRINUSE: address already in use :::3001\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1908:16)\n' +
+    '    at listenInCluster (node:net:1965:12)\n' +
+    '    at Server.listen (node:net:2067:7)\n' +
+    '    at Function.listen (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/express/lib/application.js:635:24)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/server.ts:391:20\n' +
+    '    at VitestExecutor.runModule (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/vite-node/dist/client.mjs:362:5)\n' +
+    '    at VitestExecutor.directRequest (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/vite-node/dist/client.mjs:346:5)\n' +
+    '    at VitestExecutor.cachedRequest (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/vite-node/dist/client.mjs:189:14)\n' +
+    '    at VitestExecutor.dependencyRequest (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/vite-node/dist/client.mjs:233:12)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/integration/upload.test.ts:100:26',
+  category: 'system',
+  level: 'error',
+  message: 'Uncaught Exception',
+  timestamp: '2025-07-16 20:16:16'
+}
+{
+  service: 'file-upload-api',
+  message: 'Error occurred callback is not a function',
+  stack: 'TypeError: callback is not a function\n' +
+    '    at Proxy.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:134:9)\n' +
+    '    at Proxy.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Proxy.spy (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:164:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at TextExtractionService.extractFromPdf (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:158:12)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:56:27\n' +
+    '    at Object.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:18:56)\n' +
+    '    at Object.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Object.spy [as getOrSet] (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)',
+  category: 'text_extraction',
+  context: {
+    filePath: '/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/test-uploads/test.pdf',
+    mimetype: 'application/pdf'
+  },
+  requestId: undefined,
+  timestamp: '2025-07-16 20:17:59',
+  level: 'error'
+}
+{
+  service: 'file-upload-api',
+  message: 'Error occurred callback is not a function',
+  stack: 'TypeError: callback is not a function\n' +
+    '    at Proxy.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:153:9)\n' +
+    '    at Proxy.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Proxy.spy (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:164:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at TextExtractionService.extractFromPdf (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:158:12)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:56:27\n' +
+    '    at Object.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:18:56)\n' +
+    '    at Object.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Object.spy [as getOrSet] (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)',
+  category: 'text_extraction',
+  context: {
+    filePath: '/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/test-uploads/corrupted.pdf',
+    mimetype: 'application/pdf'
+  },
+  requestId: undefined,
+  timestamp: '2025-07-16 20:17:59',
+  level: 'error'
+}
+{
+  service: 'file-upload-api',
+  message: 'Error occurred callback is not a function',
+  stack: 'TypeError: callback is not a function\n' +
+    '    at Proxy.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:172:9)\n' +
+    '    at Proxy.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Proxy.spy (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:164:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at TextExtractionService.extractFromPdf (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:158:12)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/infrastructure/services/TextExtractionService.ts:56:27\n' +
+    '    at Object.<anonymous> (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/unit/TextExtractionService.test.ts:18:56)\n' +
+    '    at Object.mockCall (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/@vitest/spy/dist/index.js:50:17)\n' +
+    '    at Object.spy [as getOrSet] (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/tinyspy/dist/index.js:42:80)',
+  category: 'text_extraction',
+  context: {
+    filePath: '/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/test-uploads/empty.pdf',
+    mimetype: 'application/pdf'
+  },
+  requestId: undefined,
+  timestamp: '2025-07-16 20:17:59',
+  level: 'error'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'test.png',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:17:59'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'bad-image.png',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:17:59'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'test.jpg',
+  mimetype: 'image/jpeg',
+  language: 'eng',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:17:59'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'multilang.png',
+  mimetype: 'image/png',
+  language: 'spa',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:17:59'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'file.txt',
+  error: "ENOENT: no such file or directory, open '/path/to/nonexistent/file.txt'",
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from file',
+  timestamp: '2025-07-16 20:17:59'
+}
+{
+  service: 'file-upload-api',
+  filePath: 'slow.txt',
+  mimetype: 'image/png',
+  language: 'eng',
+  error: 'image.metadata is not a function',
+  category: 'text-extraction',
+  level: 'error',
+  message: 'Error extracting text from image with OCR',
+  timestamp: '2025-07-16 20:17:59'
+}
+{
+  service: 'file-upload-api',
+  error: 'listen EADDRINUSE: address already in use :::3001',
+  stack: 'Error: listen EADDRINUSE: address already in use :::3001\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1908:16)\n' +
+    '    at listenInCluster (node:net:1965:12)\n' +
+    '    at Server.listen (node:net:2067:7)\n' +
+    '    at Function.listen (/home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/express/lib/application.js:635:24)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/server.ts:391:20\n' +
+    '    at VitestExecutor.runModule (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/vite-node/dist/client.mjs:362:5)\n' +
+    '    at VitestExecutor.directRequest (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/vite-node/dist/client.mjs:346:5)\n' +
+    '    at VitestExecutor.cachedRequest (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/vite-node/dist/client.mjs:189:14)\n' +
+    '    at VitestExecutor.dependencyRequest (file:///home/denis/Documents/personal/PoCs/file-upload-n-search/backend/node_modules/vite-node/dist/client.mjs:233:12)\n' +
+    '    at /home/denis/Documents/personal/PoCs/file-upload-n-search/backend/src/test/integration/upload.test.ts:100:26',
+  category: 'system',
+  level: 'error',
+  message: 'Uncaught Exception',
+  timestamp: '2025-07-16 20:18:00'
+}

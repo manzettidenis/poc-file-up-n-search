@@ -1,0 +1,158 @@
+version: '3.8'
+
+services:
+  # Backend API service (without Tesseract)
+  backend:
+    build:
+      context: ./server
+      dockerfile: Dockerfile.api
+    container_name: file-upload-backend
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - PORT=3001
+      - FRONTEND_URL=http://localhost:3000
+      - OCR_SERVICE_URL=http://ocr-service:3002
+      - LOG_LEVEL=info
+      - MAX_FILE_SIZE=52428800
+      - UPLOAD_DIR=uploads
+      - RATE_LIMIT_WINDOW_MS=900000
+      - RATE_LIMIT_MAX_REQUESTS=1000
+      - UPLOAD_RATE_LIMIT_MAX=50
+      - SEARCH_RATE_LIMIT_MAX=300
+      - REQUEST_LOGGING=true
+    volumes:
+      - backend_uploads:/app/uploads
+      - backend_data:/app/data
+      - backend_logs:/app/logs
+    networks:
+      - file-upload-network
+    depends_on:
+      ocr-service:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3001/health/live', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) })"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Dedicated OCR service
+  ocr-service:
+    build:
+      context: ./ocr-service
+      dockerfile: Dockerfile
+    container_name: file-upload-ocr
+    restart: unless-stopped
+    ports:
+      - "3002:3002"
+    environment:
+      - NODE_ENV=production
+      - PORT=3002
+      - OCR_DEFAULT_LANGUAGE=eng
+      - OCR_PREPROCESSING=true
+      - OCR_TIMEOUT=30000
+      - MAX_CONCURRENT_JOBS=3
+      - REDIS_URL=redis://redis:6379
+    volumes:
+      - ocr_temp:/tmp/ocr
+    networks:
+      - file-upload-network
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3002/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: '1.0'
+        reservations:
+          memory: 512M
+          cpus: '0.5'
+
+  # Redis for OCR job queue
+  redis:
+    image: redis:7-alpine
+    container_name: file-upload-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - file-upload-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 3s
+      retries: 5
+    command: redis-server --appendonly yes
+
+  # Frontend service (unchanged)
+  frontend:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: file-upload-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - file-upload-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:80/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  # Optional: Prometheus monitoring
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: file-upload-prometheus
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus-microservices.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--storage.tsdb.retention.time=200h'
+      - '--web.enable-lifecycle'
+    networks:
+      - file-upload-network
+    profiles:
+      - monitoring
+
+volumes:
+  backend_uploads:
+    driver: local
+  backend_data:
+    driver: local
+  backend_logs:
+    driver: local
+  ocr_temp:
+    driver: local
+  redis_data:
+    driver: local
+  prometheus_data:
+    driver: local
+
+networks:
+  file-upload-network:
+    driver: bridge 
