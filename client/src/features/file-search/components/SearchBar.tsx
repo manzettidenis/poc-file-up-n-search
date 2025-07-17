@@ -1,6 +1,4 @@
-import { Component, createSignal } from 'solid-js'
-import { searchService } from '../services/searchService'
-import { notificationStore } from '../../../core/stores/notifications'
+import { Component } from 'solid-js'
 import { useSearch } from '../hooks/useSearch'
 
 interface SearchBarProps {
